@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/SimpleWeather/app/src/main/res/layout/activity_main.xml" value="0.3591485507246377" />
-        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/SimpleWeather/app/src/main/res/layout/fragment_five_day_weather.xml" value="0.3591485507246377" />
-        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/SimpleWeather/app/src/main/res/layout/fragment_tide.xml" value="0.3591485507246377" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/SimpleWeather/app/src/main/res/layout/fragment_five_day_weather.xml" value="0.12" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/SimpleWeather/app/src/main/res/layout/fragment_tide.xml" value="0.31443298969072164" />
+        <entry key="..\:/Users/lab_services_student/AndroidStudioProjects/SimpleWeather/app/src/main/res/layout/weather_item.xml" value="0.1743659420289855" />
       </map>
     </option>
   </component>

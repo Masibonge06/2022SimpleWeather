@@ -13,7 +13,7 @@ import java.net.URL;
 public class MainActivity extends AppCompatActivity {
 
     private final String TAG = "accuWeatherURL";
-    Fragment FiveDayWeather;
+//    static FiveDayWeather FiveDayWeather;
     Fragment TideFragment;
 
     @Override
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FiveDayWeather = new FiveDayWeather();
+        Fragment today = FiveDayWeather.getInstance();
         TideFragment = new TideFragment();
 
         URL accuWeatherURL = NetworkUtil.buildURL();
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.weatherFrame, FiveDayWeather);
+        transaction.replace(R.id.weatherFrame, today);
         transaction.replace(R.id.tideFragment, TideFragment);
         transaction.commit();
     }
